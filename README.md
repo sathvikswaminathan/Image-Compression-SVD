@@ -16,7 +16,7 @@ This matrix can then be expanded and written as a sum of **r** rank-1 matrices, 
 
 **A = σ<sub>1</sub>u<sub>1</sub>v<sub>1</sub><sup>T</sup> + σ<sub>2</sub>u<sub>2</sub>v<sub>2</sub><sup>T</sup> + σ<sub>3</sub>u<sub>3</sub>v<sub>3</sub><sup>T</sup> + .... + σ<sub>r</sub>u<sub>r</sub>v<sub>r</sub><sup>T</sup>**
 
-The rank-1 matrices whose corresponding singular values are below a threshold are truncated off and only the top **k** rank-1 matrices are used.
+The rank-1 matrices whose corresponding singular value is below a threshold are truncated off and only the top **k** rank-1 matrices are used.
 
 **A<sub>k</sub> = σ<sub>1</sub>u<sub>1</sub>v<sub>1</sub><sup>T</sup> + σ<sub>2</sub>u<sub>2</sub>v<sub>2</sub><sup>T</sup> + σ<sub>3</sub>u<sub>3</sub>v<sub>3</sub><sup>T</sup> + .... + σ<sub>k</sub>u<sub>k</sub>v<sub>k</sub><sup>T</sup>**
 
